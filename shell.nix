@@ -9,6 +9,7 @@ in
   pkgs.mkShell {
     packages = [
       toolchain
+      pkgs.protobuf_23
     ];
   }
 
